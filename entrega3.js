@@ -45,7 +45,7 @@ function login_cliente() {
                 icon: 'warning',
                 title: 'Oops, parece que no estas registrado',
                 text: 'por favor hazlo!',
-                footer: '<a href="entrega3.html">Volver</a>'
+                footer: '<a href="index.html">Volver</a>'
               })
         }
     }

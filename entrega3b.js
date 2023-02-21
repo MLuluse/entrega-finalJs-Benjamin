@@ -86,7 +86,7 @@ function calcular_prestamo() {
     else {
         Swal.fire({
             title: 'GRACIAS POR HABERNOS TENIDO EN CUENTA',
-            footer: ` <a href="entrega3.html">Volver</a>`,
+            footer: ` <a href="index.html">Volver</a>`,
             showClass: {
               popup: 'animate__animated animate__fadeInDown'
             },
