@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+     <!--script de sweetalert-->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+    <!--link a la animacion que voya usar en sweetalert o css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="entrega3.css">
+
+    <title>ahora si prestame</title>
+</head>
+<body>
+    <header>
+        <h1>AHORA SI COTIZAME</h1>
+    </header>
+    <main id="principal">
+        <fieldset>
+            <legend>Ingrese el importe y las cuotas que desea / FIN si quiere salir</legend>
+            <div>
+                <label for="importe_del_prestamo"> Importe del prestamo</label>
+                <input type="text" name?="200" placeholder="200" id="importe">
+            </div>
+            <div>
+                <label for="cuotas">Cantidad de cuotas</label>
+                <select name="" id="cuotas">
+                    <option value="3">3</option>
+                    <option value="6">6</option>
+                    <option value="9">9</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+
+            <button id="btn_calcular"> Calcular </button>
+        </fieldset>
+        <fieldset id="dolarhoy">
+            
+
+        </fieldset>
+
+
+    </main>
+
+<!--inicializo el sweetalert-->
+    <script src="sweetalert2.all.min.js"></script>
+<!--Mi script de sweet alert-->
+    <script src="entrega3b.js"></script>
+</body>
+</html>

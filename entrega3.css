@@ -1,0 +1,40 @@
+
+body{
+    background-image: radial-gradient(circle at center, #817eea 0, #4b70dc, #4553d5 100%) ;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    align-items: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-shadow: #5b926f;
+}
+h2{
+    text-align: center;
+}
+fieldset{
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+legend{
+    text-align: center;
+}
+div{
+    text-align: center;
+    justify-content: center;
+}
+button{
+    align-items: center;
+}

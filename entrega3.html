@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <!--script de mi sweetalert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.2/dist/sweetalert2.all.min.js"></script>
+    
+    <link rel="stylesheet" href="entrega3.css">
+    <title>ingreso</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simulador de Prestamo</h1>
+    </header>
+
+    <main>
+        <H2>REGISTRATE, SI YA ESTAS REGISTRADO LOGUEATE con password e e-mail!</H2>
+        <fieldset>
+            <legend>Completa Tus Datos</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="Nombre" placeholder="Juan" id="nombre">
+            </div>
+
+            <div>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" placeholder="Lopez" id="apellido">
+            </div>
+
+            <div>
+                <label for="e-mail" class="mail"> e-mail</label>
+                <input type="email" name="email"  placeholder="juan@yahoo.com" id="mail">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="text" id="pass">
+            </div>
+
+            <button id="btn_registro">Registrame</button>
+
+            <button id="btn_login">Logueame</button>
+
+        </fieldset>
+
+    <footer>
+
+    </footer>
+<!--inicializacion de mi sweetalert-->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="entrega3.js"></script>
+</body>
+
+</html>
